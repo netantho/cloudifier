@@ -1,5 +1,7 @@
 # Cloudifier
 
+[![Dependency Status](https://david-dm.org/netantho/cloudifier.svg)](https://david-dm.org/netantho/cloudifier)
+
 Cloudifier provides a web interface to help you manage your cloud hosting (currently only AWS).
 We rely on [sails](http://sailsjs.org) for the backend and [angular](http://angularjs.org/) for the frontend.
 
