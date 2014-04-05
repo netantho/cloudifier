@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 			files: ['api/**/*'],
 
 			// When API the changed
-			tasks: ['lint']
+			tasks: ['lint', 'coffee']
 		},
 		assets: {
 
