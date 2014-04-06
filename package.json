@@ -30,7 +30,8 @@
     "chai": "*",
     "chai-fuzzy": "*",
     "chai-spies": "*",
-    "supertest": "*"
+    "supertest": "*",
+    "should": "*"
   },
   "scripts": {
     "start": "node app.js",

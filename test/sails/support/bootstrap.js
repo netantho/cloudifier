@@ -34,7 +34,7 @@ before(function (done) {
 
     // export properties for upcoming tests with supertest.js
     sails = sail;
-    global.testUrl = "http://localhost:1337/";
+    global.testUrl = "http://localhost:1337";
     // console.log(sail.express)
     // global.app = sail;
 
