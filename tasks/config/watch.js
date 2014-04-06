@@ -18,10 +18,10 @@ module.exports = function(grunt) {
 		api: {
 
 			// API files to watch:
-			files: ['api/**/*'],
+			files: ['api/**/*', 'test/**/**/*'],
 
 			// When API the changed
-			tasks: ['lint', 'coffee']
+			tasks: ['lint', 'coffee', 'mochaTest']
 		},
 		assets: {
 

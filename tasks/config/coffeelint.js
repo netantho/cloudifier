@@ -10,7 +10,7 @@
  */
 module.exports = function(grunt) {
 	grunt.config.set('coffeelint', {
-	     app: ['api/**/*.coffee']
+	     app: ['api/**/*.coffee', 'tests/**/**/*.coffee']
 	});
 
 	grunt.loadNpmTasks('grunt-coffeelint');

@@ -7,4 +7,4 @@ Ec2regionsController.coffee
 
 module.exports =
   find: (req, res) ->
-    res.send({regions: sails.config.aws.ec2.regions});
+    res.send(regions: sails.config.aws.ec2.regions)
