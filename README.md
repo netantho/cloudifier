@@ -1,5 +1,6 @@
 # Cloudifier
 
+[![Build Status](https://travis-ci.org/netantho/cloudifier.svg?branch=master)](https://travis-ci.org/netantho/cloudifier)
 [![Dependency Status](https://david-dm.org/netantho/cloudifier.svg)](https://david-dm.org/netantho/cloudifier)
 
 Cloudifier provides a web interface to help you manage your cloud hosting (currently only AWS).
