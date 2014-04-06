@@ -9,10 +9,22 @@ chai.use(require 'chai-fuzzy')
 should = require 'should'
 
 describe('EC2 regions API', () ->
-  describe('GET /ec2regions/find', () ->
+  describe('GET /ec2regions/findAll', () ->
+    it('should return 404 Not found', (done) ->
+      request(global.testUrl)
+      .get('/ec2regions/findAll')
+      .expect(404)
+      .end((err, res) ->
+        throw err if err
+        done()
+      )
+    )
+  )
+
+  describe('GET /ec2/regions', () ->
     it('should display list of EC2 regions', (done) ->
       request(global.testUrl)
-      .get('/ec2regions/find')
+      .get('/ec2/regions')
       .expect(200)
       .end((err, res) ->
         throw err if err
