@@ -17,6 +17,3 @@ describe('EC2 regions API', () ->
     )
   )
 )
-
-
-
