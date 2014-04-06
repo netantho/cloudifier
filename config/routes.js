@@ -33,8 +33,8 @@ module.exports.routes = {
 
   // Custom routes here...
 
-  'get /ec2regions/findAll': {response: 'notFound'},
-  'get /ec2/regions': {
+  'get /api/v1/ec2regions/findAll': {response: 'notFound'},
+  'get /api/v1/ec2/regions': {
     controller: 'Ec2regionsController',
     action: 'findAll'
   }
