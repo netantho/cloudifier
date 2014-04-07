@@ -1,7 +1,8 @@
 # Cloudifier
 
 [![Build Status](https://travis-ci.org/netantho/cloudifier.svg?branch=master)](https://travis-ci.org/netantho/cloudifier)
-[![Dependency Status](https://david-dm.org/netantho/cloudifier.svg)](https://david-dm.org/netantho/cloudifier)
+[![Dependency Status](https://www.versioneye.com/user/projects/534254f6e97a465ad90001ea/badge.png)](https://www.versioneye.com/user/projects/534254f6e97a465ad90001ea)
+[![Dependency Status](https://www.versioneye.com/user/projects/53425514e97a46adb0000173/badge.png)](https://www.versioneye.com/user/projects/53425514e97a46adb0000173)
 
 Cloudifier provides a web interface to help you manage your cloud hosting (currently only AWS).
 We rely on [sails](http://sailsjs.org) for the backend and [angular](http://angularjs.org/) for the frontend.
