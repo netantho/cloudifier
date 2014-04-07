@@ -23,7 +23,8 @@
     "grunt-contrib-coffee": "~0.10.1",
     "grunt-coffeelint": "~0.0.8",
     "coffee-script": "~1.7.1",
-    "grunt-mocha-test": "^0.10.0"
+    "grunt-mocha-test": "^0.10.0",
+    "bower": "*"
   },
   "devDependencies": {
     "mocha": "*",
@@ -36,7 +37,8 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "grunt mochaTest"
+    "test": "grunt mochaTest",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "main": "app.js",
   "repository": {

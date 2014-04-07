@@ -41,7 +41,7 @@
 
 config/local.js
 config/aws.json
-
+assets/vendor
 
 
 
