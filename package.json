@@ -35,10 +35,11 @@
     "should": "*"
   },
   "scripts": {
+    "preinstall": "sudo npm install -g grunt-cli bower",
     "start": "node app.js",
     "debug": "node debug app.js",
     "test": "grunt mochaTest",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "postinstall": "bower install"
   },
   "main": "app.js",
   "repository": {
