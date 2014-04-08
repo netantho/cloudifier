@@ -23,6 +23,7 @@
     "angular-bootstrap": "~0.10.0",
     "angular-socket-io": "~0.4.1",
     "highcharts-ng": "~0.0.6",
-    "highcharts": "~3.0.7"
+    "highcharts": "~3.0.7",
+    "socket.io-client": "~0.9.16"
   }
 }
