@@ -36,6 +36,19 @@ module.exports.routes = {
   'get /api/v1/ec2/regions': {
     controller: 'Ec2regionsController',
     action: 'findAll'
+  },
+
+  'get /api/v1/ec2spotprices/findCurrentAll': {
+    controller: 'Ec2spotpricesController',
+    action: 'findCurrentAll'
+  },
+  'get /api/v1/ec2spotprices/findCurrentByRegion/:region': {
+    controller: 'Ec2spotpricesController',
+    action: 'findCurrentByRegion'
+  },
+  'get /api/v1/ec2spotprices/findCurrentByZone/:region/:zone': {
+    controller: 'Ec2spotpricesController',
+    action: 'findCurrentByZone'
   }
 
   // If a request to a URL doesn't match any of the custom routes above, it is matched
