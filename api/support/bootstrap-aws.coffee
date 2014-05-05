@@ -7,4 +7,4 @@ bootstrap-aws.coffee
 module.exports =
   AWS: require('aws-sdk')
   ec2: () ->
-  	new @AWS.EC2()
+    new @AWS.EC2()
