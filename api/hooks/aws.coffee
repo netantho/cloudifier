@@ -1,9 +1,12 @@
-AWS = require 'aws-sdk'
-AWS.config.loadFromPath 'config/aws.json'
-
 module.exports = (sails) ->
   return {
     initialize: (cb) ->
+      if sails.config.environment == 'test'
+        AWS = require '../../test/mocks/aws'
+      else
+        AWS = require 'aws-sdk'
+        AWS.config.loadFromPath 'config/aws.json'
+
       sails.config.aws =
         module:
           AWS: AWS

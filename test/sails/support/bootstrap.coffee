@@ -7,6 +7,7 @@ sails = null
 before((done) ->
   # start sails server
   require('sails').lift({
+    environment: 'test'
     # turn down the log level so we can view the test results
     log:
       level: 'error'
