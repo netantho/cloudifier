@@ -8,7 +8,7 @@
  * templates using a <script> tag.
  *
  * For usage docs see:
- * 		https://github.com/Zolmeister/grunt-sails-linker
+ *   https://github.com/Zolmeister/grunt-sails-linker
  *
  */
 module.exports = function(grunt) {

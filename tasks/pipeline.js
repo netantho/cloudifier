@@ -27,6 +27,16 @@ var jsFilesToInject = [
 	// are brought in here
 	'js/dependencies/**/*.js',
 
+  'vendor/angular/angular.js',
+  'vendor/angular-resource/angular-resource.js',
+  'vendor/angular-route/angular-route.js',
+  'vendor/angular-bootstrap/ui-bootstrap.js',
+  'vendor/angular-bootstrap/ui-bootstrap-tpls.js',
+  'vendor/angular-socket-io/socket.js',
+  'vendor/highcharts/adapters/standalone-framework.js',
+  'vendor/highcharts/highcharts.js',
+  'vendor/highcharts-ng/dist/highcharts-ng.js',
+
 	// All of the rest of your client-side js files
 	// will be injected here in no particular order.
 	'js/**/*.js'
