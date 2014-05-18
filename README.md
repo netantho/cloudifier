@@ -18,6 +18,10 @@ We rely on [sails](http://sailsjs.org) for the backend and [angular](http://angu
 - Launch the server with ```sails lift```
 - Go to [http://localhost:1337](http://localhost:1337)
 
+## Updating notes
+
+[angular-seed](https://github.com/angular/angular-seed): [revision 238b1a9aaa34e6ef98c6aaa0418c24c0c19dd2e3](https://github.com/angular/angular-seed/commit/238b1a9aaa34e6ef98c6aaa0418c24c0c19dd2e3)
+
 ## License
 
 This is project is under the [MIT](https://github.com/netantho/cloudifier/blob/master/LICENSE) license.

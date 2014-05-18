@@ -11,7 +11,7 @@
     <meta name="author" content="Anthony Verez <netantho@gmail.com>">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <!--  
+    <!--
         Stylesheets and Preprocessors
         ==============================
 
@@ -22,21 +22,30 @@
         By default, stylesheets from your `assets/linker/styles` folder are included
         here automatically.  Both CSS (.css) and LESS (.less) are supported.
         In production, your styles will be minified and concatenated into a single file.
-        
+
         To customize any part of the built-in behavior, just edit your Gruntfile.
         For example, here are a few things you could do:
-            
+
             + Change the order of your CSS files
             + Import stylesheets from other directories
             + Use a different or additional preprocessor, like SASS, SCSS or Stylus
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/app.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
   </head>
 
   <body>
+    <ul class="menu">
+      <li><a href="#/view1">view1</a></li>
+      <li><a href="#/view2">view2</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <div>Angular seed app: v<span app-version></span></div>
 
     <%- body %>
 
@@ -51,7 +60,7 @@
         By default, your Gruntfile is configured to automatically load and precompile
         client-side JST templates in your `assets/linker/templates` folder, then
         include them here automatically.
-        
+
         To customize this behavior to fit your needs, just edit your Gruntfile.
         For example, here are a few things you could do:
 
@@ -62,7 +71,7 @@
     -->
 
     <!--TEMPLATES-->
-    
+    <script type="text/javascript" src="/jst.js"></script>
     <!--TEMPLATES END-->
 
 
@@ -72,25 +81,39 @@
       ========================
 
       You can always bring in JS files manually with `script` tags, or asynchronously
-      on the client using a solution like AMD (RequireJS).  Or, if you like, you can 
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
       take advantage of Sails' boilerplate asset management.
 
       By default, filesin your `assets/linker/js` folder are included here
       automatically.  Both JavaScript (.js) and CoffeeScript (.coffee) are supported.
       In production, your scripts will be minified and concatenated into a single file.
-      
+
       To customize any part of the built-in behavior, just edit your Gruntfile.
       For example, here are a few things you could do:
-          
+
           + Change the order of your scripts
           + Import scripts from other directories
           + Use a different preprocessor, like TypeScript
 
     -->
-<!-- 
+<!--
     <script src="/vendor/socket.io-client/dist/socket.io.js"></script>
  -->    <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/vendor/angular/angular.js"></script>
+    <script src="/vendor/angular-resource/angular-resource.js"></script>
+    <script src="/vendor/angular-route/angular-route.js"></script>
+    <script src="/vendor/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="/vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="/vendor/angular-socket-io/socket.js"></script>
+    <script src="/vendor/highcharts/adapters/standalone-framework.js"></script>
+    <script src="/vendor/highcharts/highcharts.js"></script>
+    <script src="/vendor/highcharts-ng/dist/highcharts-ng.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/controllers.js"></script>
+    <script src="/js/directives.js"></script>
+    <script src="/js/filters.js"></script>
+    <script src="/js/services.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
