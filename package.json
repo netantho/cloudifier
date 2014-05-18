@@ -38,7 +38,8 @@
     "protractor": "~0.22.0",
     "http-server": "^0.6.1",
     "shelljs": "^0.2.6",
-    "karma-junit-reporter": "^0.2.2"
+    "karma-junit-reporter": "^0.2.2",
+    "karma-jasmine": "~0.1.5"
   },
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
