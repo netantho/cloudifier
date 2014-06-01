@@ -7,7 +7,7 @@ module.exports = function(config){
       'assets/vendor/angular/angular.js',
       'assets/vendor/angular-route/angular-route.js',
       'assets/vendor/angular-mocks/angular-mocks.js',
-      'assets/js/**/*.js',
+      '.tmp/public/js/**/*.js',
       'test/angular/unit/**/*.js'
     ],
 
