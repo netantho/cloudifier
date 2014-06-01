@@ -13,7 +13,7 @@ describe('filter', function() {
 
 
     it('should replace VERSION', inject(function(interpolateFilter) {
-      expect(interpolateFilter('before %VERSION% after')).toEqual('before TEST_VER after');
+      interpolateFilter('before %VERSION% after').should.equal('before TEST_VER after');
     }));
   });
 });

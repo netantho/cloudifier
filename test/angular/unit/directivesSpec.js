@@ -12,7 +12,7 @@ describe('directives', function() {
       });
       inject(function($compile, $rootScope) {
         var element = $compile('<span app-version></span>')($rootScope);
-        expect(element.text()).toEqual('TEST_VER');
+        element.text().should.equal('TEST_VER');
       });
     });
   });
