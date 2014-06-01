@@ -12,4 +12,4 @@ before_script:
   - npm run update-webdriver
   - sleep 1 # give server time to start
 after_success:
-  - cat ./coverage/sails-lcov.info | ./node_modules/coveralls/bin/coveralls.js –
+  - cat ./coverage/sails-lcov.info | ./node_modules/coveralls/bin/coveralls.js -
