@@ -1,6 +1,7 @@
 # Cloudifier
 
 [![Build Status](https://travis-ci.org/netantho/cloudifier.svg?branch=master)](https://travis-ci.org/netantho/cloudifier)
+[![Coverage Status](https://img.shields.io/coveralls/netantho/cloudifier.svg)](https://coveralls.io/r/netantho/cloudifier?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/534254f6e97a465ad90001ea/badge.png)](https://www.versioneye.com/user/projects/534254f6e97a465ad90001ea)
 [![Dependency Status](https://www.versioneye.com/user/projects/53425514e97a46adb0000173/badge.png)](https://www.versioneye.com/user/projects/53425514e97a46adb0000173)
 
