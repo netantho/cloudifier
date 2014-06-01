@@ -30,6 +30,12 @@ module.exports = function(grunt) {
 				src: ['**/*.coffee'],
 				dest: '.tmp/test/angular/unit/',
 				ext: '.js'
+			}, {
+				expand: true,
+				cwd: 'test/angular/e2e/',
+				src: ['**/*.coffee'],
+				dest: '.tmp/test/angular/e2e/',
+				ext: '.js'
 			}]
 		}
 	});

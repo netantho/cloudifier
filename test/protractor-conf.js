@@ -2,7 +2,7 @@ exports.config = {
   allScriptsTimeout: 11000,
 
   specs: [
-    'angular/e2e/*.js'
+    '../.tmp/test/angular/e2e/*.js'
   ],
 
   capabilities: {
@@ -11,7 +11,7 @@ exports.config = {
 
   baseUrl: 'http://localhost:1337/',
 
-  framework: 'jasmine',
+  framework: 'mocha',
 
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
