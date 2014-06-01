@@ -6,12 +6,16 @@
  * [grunt-coffeelint](https://github.com/vojtajina/grunt-coffeelint)
  *
  * For usage docs see:
- * 		https://github.com/vojtajina/grunt-coffeelint
+ *    https://github.com/vojtajina/grunt-coffeelint
  */
 module.exports = function(grunt) {
-	grunt.config.set('coffeelint', {
-	     app: ['api/**/*.coffee', 'tests/**/**/*.coffee']
-	});
+  grunt.config.set('coffeelint', {
+    app: [
+      'api/**/*.coffee',
+      'assets/js/**/*.coffee',
+      'tests/**/**/*.coffee'
+    ]
+  });
 
-	grunt.loadNpmTasks('grunt-coffeelint');
+  grunt.loadNpmTasks('grunt-coffeelint');
 };
