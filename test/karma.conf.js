@@ -8,7 +8,7 @@ module.exports = function(config){
       'assets/vendor/angular-route/angular-route.js',
       'assets/vendor/angular-mocks/angular-mocks.js',
       '.tmp/public/js/**/*.js',
-      'test/angular/unit/**/*.js'
+      '.tmp/test/angular/unit/**/*.js'
     ],
 
     autoWatch : true,
