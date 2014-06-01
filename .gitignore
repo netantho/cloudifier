@@ -117,3 +117,6 @@ nbproject
 .node_history
 coverage/*.html
 coverage/*.info
+coverage/coveralls.sh
+coverage/Firefox 29.0.0 (Mac OS X 10.9)
+
